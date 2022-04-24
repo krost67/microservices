@@ -28,6 +28,12 @@
     <dependencyManagement>
         <dependencies>
             <dependency>
+                <groupId>com.podlasenko</groupId>
+                <artifactId>clients</artifactId>
+                <version>${project.version}</version>
+                <scope>compile</scope>
+            </dependency>
+            <dependency>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-dependencies</artifactId>
                 <version>${spring.boot.dependencies.version}</version>
