@@ -11,7 +11,7 @@ import java.time.LocalDateTime;
 public class NotificationService {
     private final NotificationRepository notificationRepository;
 
-    public void send(NotificationRequest request) {
+    public void save(NotificationRequest request) {
         notificationRepository.save(Notification.builder()
                 .message(request.message())
                 .toCustomerId(request.toCustomerId())

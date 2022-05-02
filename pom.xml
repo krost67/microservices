@@ -16,6 +16,7 @@
         <module>clients</module>
         <module>notification</module>
         <module>gateway</module>
+        <module>amqp</module>
     </modules>
 
     <properties>
@@ -33,6 +34,11 @@
                 <artifactId>clients</artifactId>
                 <version>${project.version}</version>
                 <scope>compile</scope>
+            </dependency>
+            <dependency>
+                <groupId>com.podlasenko</groupId>
+                <artifactId>amqp</artifactId>
+                <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.springframework.boot</groupId>
